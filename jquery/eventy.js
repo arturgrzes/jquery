@@ -11,7 +11,7 @@ $(function()  {
     }); 
     
     //grupa zdarzeń na nagłówku
-    $('h1').on( {
+    $('h1').on({
         'click': function () {
             $(this).css("color", "orange");
         },
