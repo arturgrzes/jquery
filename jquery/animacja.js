@@ -14,7 +14,7 @@ $(function() {
     //efekt slideUp i slideDown
     $('h2').slideUp(3000).slideDown(3000);
     
-    
+    //funkcja zwrotna animacji
     function animacja() {
         
         console.log('zakończono pierwszą animację. Zaraz startuje druga :)');
@@ -24,7 +24,7 @@ $(function() {
     
     
     
-    
+    //efekt animacji z funkcją zwrotną animacja
     $('h3').animate({'font-size': '3em', 'margin-left': '100px'}, 2000, animacja);
     
 })
